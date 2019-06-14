@@ -14,17 +14,19 @@ var stringArray = [];
 
    for (var i = 0; i < stringArray.length; i ++) {
     if (stringArray[i].includes("3")) {
-      stringArray[i] = "I'm sorry, Dave. I'm afraid I can't do that.";
-
+      stringArray[i] = " ''I'm sorry, Dave. I'm afraid I can't do that.'' ";
+      $(this).remove();
     } else if (stringArray[i].includes("2") && !stringArray.includes("3")) {
-      stringArray[i] = "Boop!";
-
+      stringArray[i] = " ''Boop!'' ";
+      $(this).remove();
     } else if (stringArray[i].includes("1") && !string.includes("2") && !string.includes("3")) {
-      stringArray[i] = "Beep!";
+      stringArray[i] = " ''Beep!'' ";
+      $(this).remove();
     }
     }
     console.log(stringArray);
     $("#output").append(stringArray);
+
 
   });
 
