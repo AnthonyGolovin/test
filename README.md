@@ -4,9 +4,16 @@
 
 #### By _**Anthony Golovin**_
 
-## Description
+## Description/Specs
 
-_The program is designed to convert certain values such as 1,2,3 into a string that will give a response _
+_pec: The program returns a range of numbers from 0 to the users inputted number
+Input: "4"
+Output: "0, 1, 2, 3, 4"
+
+From those outputs, numbers that fall have the values (1,2,3) in them will have their number replaced by the following:
+1."Beep!"
+2."Boop!"
+3."I'm sorry, Dave. I'm afraid I can't do that."_
 
 ## Setup/Installation Requirements
 

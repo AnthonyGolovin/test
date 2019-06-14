@@ -2,7 +2,7 @@
 // 2.Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 // 3.Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
 
-var convertedNumbers;
+
 var stringArray = [];
 
  $(function() {
@@ -10,10 +10,8 @@ var stringArray = [];
    event.preventDefault();
    string = ($("#input1").val());
    for (var i = 0; i <= parseInt(string); i ++) {
-
-   stringArray.push(i.toString() );
-  }
-console.log(stringArray);
+     stringArray.push(i.toString() );
+   }
      for (var i = 0; i < stringArray.length; i ++) {
         if (stringArray[i].includes("3")) {
           stringArray[i] = " ''I'm sorry, Dave. I'm afraid I can't do that.'' ";
@@ -26,7 +24,6 @@ console.log(stringArray);
 
         }
      }
-      console.log(stringArray);
       $("#output").text(stringArray);
       stringArray=[];
   });
