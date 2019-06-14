@@ -15,10 +15,6 @@
   border-color: #feff00;
   border-width: 5px;
 }
-.container{
-
-}
-
 .btn {
   display: inline-block;
   margin-bottom: 4px;
@@ -60,4 +56,12 @@ body {
 }
 img:hover {
     opacity: 0.3;
+}
+label {
+
+  background-color: #feff00;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #feff00;
+  border-width: 5px;
 }
