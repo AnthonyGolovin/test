@@ -27,5 +27,5 @@ var stringArray = [];
       $("#output").text(stringArray);
       stringArray=[];
   });
-
+.
  });
