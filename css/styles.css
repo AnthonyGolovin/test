@@ -6,12 +6,16 @@
 
 }
 .jumbotron2 {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #ffff;
-  border-radius: 0.3rem;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #535353;
+
 
 }
+.container{
+
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 0;
@@ -25,9 +29,9 @@
   background-image: none;
   border: 1px solid transparent;
   padding: 6px 12px;
-  font-size: 20px;
-  line-height: 1.42857143;
-  border-radius: 4px;
+  font-size: 40px;
+  line-height: 1.5;
+  border-radius: 10px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -38,5 +42,14 @@
 body {
   background: rgb(36,0,0);
   background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 4%, rgba(170,8,8,1) 34%, rgba(23,14,14,1) 59%);
-
+}
+#hal3000 {
+  height: 300px;
+  width: 300px;
+}
+#kevin{
+  background-color: #4286f4;
+  border-style: solid;
+  border-color: #feff00;
+  border-width: 5px;
 }
