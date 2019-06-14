@@ -9,7 +9,7 @@ var stringArray = [];
    $("form").click(function(event) {
    event.preventDefault();
    string = ($("#input1").val());
-   for (var i = 0; i < parseInt(stringArray); i ++) {
+   for (var i = 0; i <= parseInt(string); i ++) {
 
    stringArray.push(i.toString() );
   }
@@ -18,17 +18,17 @@ console.log(stringArray);
         if (stringArray[i].includes("3")) {
           stringArray[i] = " ''I'm sorry, Dave. I'm afraid I can't do that.'' ";
 
-        } else if (stringArray[i].includes("2")) {
+        } else if (stringArray[i].includes("2") && !stringArray[i].includes("3")) {
           stringArray[i] = " ''Boop!'' ";
 
-        } else if (stringArray[i].includes("1")) {
+        } else if (stringArray[i].includes("1") && !stringArray[i].includes("2") && !stringArray[i].includes("3")) {
           stringArray[i] = " ''Beep!'' ";
 
         }
      }
       console.log(stringArray);
       $("#output").text(stringArray);
-
+      stringArray=[];
   });
 
  });
