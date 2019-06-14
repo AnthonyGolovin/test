@@ -53,5 +53,8 @@ body {
   border-width: 5px;
 }
 #output{
- font-size: 100px;
+ font-size: 50px;
+}
+img:hover {
+    opacity: 0.3;
 }

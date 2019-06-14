@@ -13,17 +13,17 @@ var stringArray = [];
    stringArray = string.split("");
 
    for (var i = 0; i < stringArray.length; i ++) {
-    if (stringArray[i].includes("3")) {
-      stringArray[i] = " ''I'm sorry, Dave. I'm afraid I can't do that.'' ";
+      if (stringArray[i].includes("3")) {
+        stringArray[i] = " ''I'm sorry, Dave. I'm afraid I can't do that.'' ";
 
-    } else if (stringArray[i].includes("2") && !stringArray.includes("3")) {
-      stringArray[i] = " ''Boop!'' ";
+      } else if (stringArray[i].includes("2") && !stringArray.includes("3")) {
+        stringArray[i] = " ''Boop!'' ";
 
-    } else if (stringArray[i].includes("1") && !string.includes("2") && !string.includes("3")) {
-      stringArray[i] = " ''Beep!'' ";
+      } else if (stringArray[i].includes("1") && !string.includes("2") && !string.includes("3")) {
+        stringArray[i] = " ''Beep!'' ";
 
-    }
-    }
+      }
+   }
     console.log(stringArray);
     $("#output").text(stringArray);
 
