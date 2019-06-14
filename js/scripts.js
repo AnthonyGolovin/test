@@ -13,7 +13,6 @@ var stringArray = [];
    stringArray = string.split("");
 
    for (var i = 0; i < stringArray.length; i ++) {
-
     if (stringArray[i].includes("3")) {
       stringArray[i] = "I'm sorry, Dave. I'm afraid I can't do that.";
 
@@ -23,8 +22,9 @@ var stringArray = [];
     } else if (stringArray[i].includes("1") && !string.includes("2") && !string.includes("3")) {
       stringArray[i] = "Beep!";
     }
+    }
+    console.log(stringArray);
     $("#output").append(stringArray);
-  }
 
   });
 
